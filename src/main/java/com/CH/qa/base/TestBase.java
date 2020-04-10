@@ -11,7 +11,6 @@ import javax.imageio.ImageIO;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.CH.qa.util.util;
 
@@ -22,13 +21,13 @@ public class TestBase {
 
 	public static Properties prop;
 	public static WebDriver driver;
-	
+	public static String path;
 	
 //To launch browser
 	public static void init() throws IOException, InterruptedException {
 		
 		prop = new Properties();
-		String path = System.getProperty("user.dir");
+		path = System.getProperty("user.dir");
 		FileInputStream fileInputSteream = new FileInputStream(path+"\\src\\main\\java\\com\\CH\\qa\\config\\config.properties");
 		prop.load(fileInputSteream);
 
@@ -40,15 +39,19 @@ public class TestBase {
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(util.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(util.IMPLICIT_WAIT_TIME, TimeUnit.SECONDS);
-		Screenshot screenShot = new AShot().takeScreenshot(driver);
-		ImageIO.write(screenShot.getImage(), "png", new File(".\\ScreenShots\\fullimage.png"));
-
+		
 	}
 	
 	//Function to take screenshot
 	public void takeScreenShot(String fileName) throws IOException {
 		Screenshot takeScreenShot = new AShot().takeScreenshot(driver);
-		ImageIO.write(takeScreenShot.getImage(), "png", new File("C:\\Users\\Manjula&Hitesh\\Maven-Eclipse Workspace\\Courtney-Hamilton\\ScreenShots\\" + fileName + ".png"));
+		File file = new File(path + "\\ScreenShots");
+		if(!(file.exists())) {
+			file.mkdir();
+		}
+		
+		
+		ImageIO.write(takeScreenShot.getImage(), "png", new File(path+"\\ScreenShots\\" + fileName + ".png"));
 		
 	}
 	

@@ -12,13 +12,6 @@
       </run>
     </groups>
     <classes>
-      <class name="com.CH.qa.test.ConfirmTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="TearDown"/>
-          <include name="validatePageTitle"/>
-        </methods>
-      </class> <!-- com.CH.qa.test.ConfirmTest -->
       <class name="com.CH.qa.test.TellUsYourSelfTest">
         <methods>
           <include name="pageHeader"/>
