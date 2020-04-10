@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Courtney-Hamilton-Suite">
+              <span class="suite-name border-passed">Courtney-Hamilton-Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Courtney-Hamilton-Suite">
+                    <span>C:\Users\Manjula&Hitesh\Maven-Eclipse Workspace\Courtney-Hamilton\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Courtney-Hamilton-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Courtney-Hamilton-Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Courtney-Hamilton-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Courtney-Hamilton-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Courtney-Hamilton-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Courtney-Hamilton-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods,   11 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Courtney-Hamilton-Suite" class="hide-methods passed suite-Courtney-Hamilton-Suite"> (hide)</a> <!-- hide-methods passed suite-Courtney-Hamilton-Suite -->
+                      <a href="#" panel-name="suite-Courtney-Hamilton-Suite" class="show-methods passed suite-Courtney-Hamilton-Suite"> (show)</a> <!-- show-methods passed suite-Courtney-Hamilton-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Courtney-Hamilton-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.ConfirmTest" hash-for-method="checkAndClickContinueButton">checkAndClickContinueButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.SuccessTest" hash-for-method="checkSuccessPage">checkSuccessPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="companyLogo">companyLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="contactHeader">contactHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="dobHeader">dobHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="insertData">insertData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="noteText">noteText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.TellUsYourSelfTest" hash-for-method="pageHeader">pageHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.ConfirmTest" hash-for-method="validateHeaderAndValues">validateHeaderAndValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Courtney-Hamilton-Suite" title="com.CH.qa.test.ConfirmTest" hash-for-method="validatePageTitle">validatePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Courtney-Hamilton-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Courtney-Hamilton-Suite" class="panel Courtney-Hamilton-Suite">
+          <div class="suite-Courtney-Hamilton-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CH.qa.test.SuccessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSuccessPage">
+                  </a> <!-- checkSuccessPage -->
+                  <span class="method-name">checkSuccessPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Courtney-Hamilton-Suite-class-passed -->
+          <div class="suite-Courtney-Hamilton-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CH.qa.test.ConfirmTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkAndClickContinueButton">
+                  </a> <!-- checkAndClickContinueButton -->
+                  <span class="method-name">checkAndClickContinueButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHeaderAndValues">
+                  </a> <!-- validateHeaderAndValues -->
+                  <span class="method-name">validateHeaderAndValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePageTitle">
+                  </a> <!-- validatePageTitle -->
+                  <span class="method-name">validatePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Courtney-Hamilton-Suite-class-passed -->
+          <div class="suite-Courtney-Hamilton-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.CH.qa.test.TellUsYourSelfTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="companyLogo">
+                  </a> <!-- companyLogo -->
+                  <span class="method-name">companyLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="contactHeader">
+                  </a> <!-- contactHeader -->
+                  <span class="method-name">contactHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dobHeader">
+                  </a> <!-- dobHeader -->
+                  <span class="method-name">dobHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="insertData">
+                  </a> <!-- insertData -->
+                  <span class="method-name">insertData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="noteText">
+                  </a> <!-- noteText -->
+                  <span class="method-name">noteText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pageHeader">
+                  </a> <!-- pageHeader -->
+                  <span class="method-name">pageHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Courtney-Hamilton-Suite-class-passed -->
+        </div> <!-- panel Courtney-Hamilton-Suite -->
+        <div panel-name="test-xml-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Manjula&Hitesh\Maven-Eclipse Workspace\Courtney-Hamilton\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Courtney-Hamilton-Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.CH.qa.util.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Courtney-Hamilton-Test&quot; parallel=&quot;methods&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;HappyPath&quot;/&gt;
+        &lt;exclude name=&quot;NegativeScenario&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.CH.qa.test.TellUsYourSelfTest&quot;/&gt;
+      &lt;class name=&quot;com.CH.qa.test.ConfirmTest&quot;/&gt;
+      &lt;class name=&quot;com.CH.qa.test.SuccessTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Courtney-Hamilton-Test --&gt;
+&lt;/suite&gt; &lt;!-- Courtney-Hamilton-Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Courtney-Hamilton-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Courtney-Hamilton-Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Courtney-Hamilton-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">HappyPath</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkAndClickContinueButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkSuccessPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">companyLogo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">contactHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">dobHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">getTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">insertData</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">noteText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">pageHeader</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validateHeaderAndValues</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">validatePageTitle</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Courtney-Hamilton-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Courtney-Hamilton-Suite');
+function tableData_Courtney-Hamilton-Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'insertData')
+data.setCell(0, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(0, 3, 12415);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validateHeaderAndValues')
+data.setCell(1, 2, 'com.CH.qa.test.ConfirmTest')
+data.setCell(1, 3, 10693);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'getTitle')
+data.setCell(2, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(2, 3, 566);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'pageHeader')
+data.setCell(3, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(3, 3, 537);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'contactHeader')
+data.setCell(4, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(4, 3, 524);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'dobHeader')
+data.setCell(5, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(5, 3, 519);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'noteText')
+data.setCell(6, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(6, 3, 496);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'companyLogo')
+data.setCell(7, 2, 'com.CH.qa.test.TellUsYourSelfTest')
+data.setCell(7, 3, 476);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkSuccessPage')
+data.setCell(8, 2, 'com.CH.qa.test.SuccessTest')
+data.setCell(8, 3, 197);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkAndClickContinueButton')
+data.setCell(9, 2, 'com.CH.qa.test.ConfirmTest')
+data.setCell(9, 3, 155);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validatePageTitle')
+data.setCell(10, 2, 'com.CH.qa.test.ConfirmTest')
+data.setCell(10, 3, 17);
+window.suiteTableData['Courtney-Hamilton-Suite']= { tableData: data, tableDiv: 'times-div-Courtney-Hamilton-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 26 seconds</span>
+              <div id="times-div-Courtney-Hamilton-Suite">
+              </div> <!-- times-div-Courtney-Hamilton-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Courtney-Hamilton-Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.CH.qa.test.TellUsYourSelfTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validateErrorMessage</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Courtney-Hamilton-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.ConfirmTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.SuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setInit</span>
+                <span class="method-start">23193 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">47334 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.SuccessTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkSuccessPage</span>
+                <span class="method-start">58508 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getTitle</span>
+                <span class="method-start">58716 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.ConfirmTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validatePageTitle</span>
+                <span class="method-start">58731 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">companyLogo</span>
+                <span class="method-start">59284 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.ConfirmTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateHeaderAndValues</span>
+                <span class="method-start">59285 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">pageHeader</span>
+                <span class="method-start">69980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.ConfirmTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkAndClickContinueButton</span>
+                <span class="method-start">69984 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">noteText</span>
+                <span class="method-start">70519 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">contactHeader</span>
+                <span class="method-start">71017 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">dobHeader</span>
+                <span class="method-start">71547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">insertData</span>
+                <span class="method-start">72068 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.ConfirmTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">84486 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.SuccessTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85621 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.CH.qa.test.TellUsYourSelfTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">85621 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

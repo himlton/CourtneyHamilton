@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Courtney-Hamilton-Suite]">
+  <listeners>
+    <listener class-name="com.CH.qa.util.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Courtney-Hamilton-Test(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="HappyPath"/>
+        <exclude name="NegativeScenario"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.CH.qa.test.ConfirmTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="TearDown"/>
+          <include name="validatePageTitle"/>
+        </methods>
+      </class> <!-- com.CH.qa.test.ConfirmTest -->
+      <class name="com.CH.qa.test.TellUsYourSelfTest">
+        <methods>
+          <include name="pageHeader"/>
+          <include name="contactHeader"/>
+          <include name="dobHeader"/>
+          <include name="insertData"/>
+          <include name="tearDown"/>
+          <include name="getTitle"/>
+          <include name="noteText"/>
+          <include name="companyLogo"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.CH.qa.test.TellUsYourSelfTest -->
+    </classes>
+  </test> <!-- Courtney-Hamilton-Test(failed) -->
+</suite> <!-- Failed suite [Courtney-Hamilton-Suite] -->
